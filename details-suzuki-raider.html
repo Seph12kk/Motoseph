@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzuki Raider 150 FI - Details | Seph Motorshop</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        /* Ensure the header is positioned properly to display the logo fully */
+        header {
+            position: relative;
+            z-index: 10;
+            background-color: #000; /* Add a background color for better visibility */
+            padding: 10px 0;
+        }
+
+        #logo {
+            width: auto;
+            height: 100px; /* Adjust the height to fit */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #B4121B;
+            border-radius: 5px;
+        }
+
+        /* Adjust hero-section styling so the logo is not cut off */
+        .hero-section {
+            background-image: url('images/hero-background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .btn {
+            background-color: #B4121B;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #9e1016;
+        }
+
+        /* Style the details page */
+        .details-container {
+            padding: 20px;
+        }
+
+        .details-header img {
+            max-width: 400px; /* Make the image smaller */
+            height: auto; /* Ensure the aspect ratio remains intact */
+            display: block;
+            margin: 0 auto 20px; /* Center the image and add spacing */
+        }
+
+        .details-header {
+            text-align: center;
+        }
+
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .specs-table th, .specs-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .specs-table th {
+            background-color: #B4121B;
+            color: white;
+        }
+
+        .btn-main {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            background-color: #B4121B;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn-main:hover {
+            background-color: #9e1016;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Seph Motorshop Logo" id="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Motorcycles</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="details-container">
+            <div class="details-header">
+                <img src="images/suzuki-raider-150-fi.jpg" alt="Suzuki Raider 150 FI">
+                <h1>Suzuki Raider 150 FI</h1>
+                <p>The Suzuki Raider 150 FI is a powerful and nimble bike with a 147.3cc engine. It's known for its agility and performance in urban environments.</p>
+            </div>
+
+            <table class="specs-table">
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>Detail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Engine</td>
+                        <td>147.3cc single-cylinder, liquid-cooled</td>
+                    </tr>
+                    <tr>
+                        <td>Power</td>
+                        <td>18.4 hp @ 10,500 rpm</td>
+                    </tr>
+                    <tr>
+                        <td>Torque</td>
+                        <td>13.8 Nm @ 8,500 rpm</td>
+                    </tr>
+                    <tr>
+                        <td>Transmission</td>
+                        <td>6-speed constant mesh</td>
+                    </tr>
+                    <tr>
+                        <td>Suspension (Front)</td>
+                        <td>Upside-down fork</td>
+                    </tr>
+                    <tr>
+                        <td>Suspension (Rear)</td>
+                        <td>Mono shock</td>
+                    </tr>
+                    <tr>
+                        <td>Brakes (Front)</td>
+                        <td>Disc, double-piston caliper</td>
+                    </tr>
+                    <tr>
+                        <td>Brakes (Rear)</td>
+                        <td>Disc, single-piston caliper</td>
+                    </tr>
+                    <tr>
+                        <td>Wheelbase</td>
+                        <td>1,300 mm</td>
+                    </tr>
+                    <tr>
+                        <td>Seat Height</td>
+                        <td>780 mm</td>
+                    </tr>
+                    <tr>
+                        <td>Weight</td>
+                        <td>115 kg (wet)</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>P121,000</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <a href="shop.html" class="btn-main">Back to Shop</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Delos Reyes, Joseph R. Seph Motorshop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - MotoSeph</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Ensure the header is positioned properly to display the logo fully */
+        header {
+            position: relative;
+            z-index: 10;
+            background-color: #000; /* Add a background color for better visibility */
+            padding: 10px 0;
+        }
+
+        #logo {
+            width: auto;
+            height: 100px; /* Adjust the height to fit */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #B4121B;
+            border-radius: 5px;
+        }
+
+        /* Adjust hero-section styling so the logo is not cut off */
+        .hero-section {
+            background-image: url('images/hero-background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .btn {
+            background-color: #B4121B;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #9e1016;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Seph Motorshop Logo" id="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Motorcycles</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>About Us</h1>
+            <p>Learn more about our passion for motorcycles</p>
+        </div>
+    </section>
+
+    <div class="content">
+        <h2>Our Mission</h2>
+        <p>At MotoSeph, our mission is to provide motorcycle enthusiasts with all the information they need to make informed choices about their rides. We believe in the freedom of the open road and aim to support both new and experienced riders alike.</p>
+        
+        <h2>Our Story</h2>
+        <p>Founded by motorcycle lovers, MotoSeph has grown from a small local shop to a trusted resource for riders across the region. Our team is dedicated to sharing their knowledge and experiences to help you find the perfect motorcycle for your journey.</p>
+        
+        <h2>Webtech Final Project</h2>
+        <p>Created by Joseph Delos Reyes</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Delos Reyes, Joseph R. MotoSeph. All rights reserved.</p>
+    </footer>
+</body>
+</html>

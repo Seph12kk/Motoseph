@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoSeph - Motorcycle Information</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Ensure the header is positioned properly to display the logo fully */
+        header {
+            position: relative;
+            z-index: 10;
+            background-color: #000; /* Add a background color for better visibility */
+            padding: 10px 0;
+        }
+
+        #logo {
+            width: auto;
+            height: 100px; /* Adjust the height to fit */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #B4121B;
+            border-radius: 5px;
+        }
+
+        /* Adjust hero-section styling so the logo is not cut off */
+        .hero-section {
+            background-image: url('images/hero-background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .btn {
+            background-color: #B4121B;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #9e1016;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Seph Motorshop Logo" id="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Motorcycles</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="shop-section">
+            <h1>Motorcycle Information</h1>
+            <div class="shop-grid">
+                <!-- Motorcycle 1 -->
+                <div class="shop-item">
+                    <img src="images/yamaha-yzf-r1.jpg" alt="Yamaha YZF-R1">
+                    <div class="shop-item-info">
+                        <h3>Yamaha YZF-R1</h3>
+                        <p>High-performance sportbike with a powerful 998cc engine and cutting-edge technology.</p>
+                        <span class="price">₱825,000</span>
+                        <a href="details-yamaha.html" class="btn">More Info</a>
+                    </div>
+                </div>
+
+                <!-- Motorcycle 2 -->
+                <div class="shop-item">
+                    <img src="images/honda-cbr500r.jpg" alt="Honda CBR500R">
+                    <div class="shop-item-info">
+                        <h3>Honda CBR500R</h3>
+                        <p>An entry-level sportbike with a 471cc engine, great for city and highway riding.</p>
+                        <span class="price">₱392,500</span>
+                        <a href="details-honda.html" class="btn">More Info</a>
+                    </div>
+                </div>
+
+                <!-- Motorcycle 3 -->
+                <div class="shop-item">
+                    <img src="images/kawasaki-ninja-zx6r.jpg" alt="Kawasaki Ninja ZX-6R">
+                    <div class="shop-item-info">
+                        <h3>Kawasaki Ninja ZX-6R</h3>
+                        <p>Popular middleweight sportbike with a 636cc engine, known for agility and power.</p>
+                        <span class="price">₱582,500</span>
+                        <a href="details-kawasaki.html" class="btn">More Info</a>
+                    </div>
+                </div>
+
+                <!-- Motorcycle 4 -->
+                <div class="shop-item">
+                    <img src="images/suzuki-gsxr750.jpg" alt="Suzuki GSX-R750">
+                    <div class="shop-item-info">
+                        <h3>Suzuki GSX-R750</h3>
+                        <p>Balance of performance and handling with a 750cc engine, combining the best of both worlds.</p>
+                        <span class="price">₱660,000</span>
+                        <a href="details-suzuki.html" class="btn">More Info</a>
+                    </div>
+                </div>
+
+                <!-- Motorcycle 5 -->
+                <div class="shop-item">
+                    <img src="images/ducati-panigale-v4.jpg" alt="Ducati Panigale V4">
+                    <div class="shop-item-info">
+                        <h3>Ducati Panigale V4</h3>
+                        <p>Premium sportbike with a 1103cc V4 engine, advanced electronics, and sleek Italian design.</p>
+                        <span class="price">₱1,320,000</span>
+                        <a href="details-ducati.html" class="btn">More Info</a>
+                    </div>
+                </div>
+
+                <!-- Motorcycle 6: Suzuki Raider 150 FI -->
+                <div class="shop-item">
+                    <img src="images/suzuki-raider-150-fi.jpg" alt="Suzuki Raider 150 FI">
+                    <div class="shop-item-info">
+                        <h3>Suzuki Raider 150 FI</h3>
+                        <p>Compact and powerful underbone motorcycle with a 150cc engine, great for city commutes.</p>
+                        <span class="price">₱121,900</span>
+                        <a href="details-suzuki-raider.html" class="btn">More Info</a>
+                    </div>
+                </div>
+
+                <!-- Motorcycle 7: Yamaha Aprio 50cc -->
+                <div class="shop-item">
+                    <img src="images/yamaha-aprio-50cc.jpg" alt="Yamaha Aprio 50cc">
+                    <div class="shop-item-info">
+                        <h3>Yamaha Aprio 50cc</h3>
+                        <p>A compact scooter with a 50cc engine, ideal for urban commuting and short trips.</p>
+                        <span class="price">₱40,000</span>
+                        <a href="details-yamaha-aprio-50cc.html" class="btn">More Info</a>
+                    </div>
+                </div>
+
+                <!-- Motorcycle 8: Yamaha WR -->
+                <div class="shop-item">
+                    <img src="images/yamaha-wr.jpg" alt="Yamaha WR">
+                    <div class="shop-item-info">
+                        <h3>Yamaha WR</h3>
+                        <p>An off-road motorcycle with excellent suspension, perfect for trail and adventure riding.</p>
+                        <span class="price">₱169,500</span>
+                        <a href="details-yamaha-wr.html" class="btn">More Info</a>
+                    </div>
+                </div>
+
+                <!-- Motorcycle 9: Yamaha Aerox 155cc -->
+                <div class="shop-item">
+                    <img src="images/yamaha-aerox-155cc.png" alt="Yamaha Aerox 155cc">
+                    <div class="shop-item-info">
+                        <h3>Yamaha Aerox 155cc</h3>
+                        <p>A stylish and powerful scooter with a 155cc engine, perfect for city riding and longer commutes.</p>
+                        <span class="price">₱115,000</span>
+                        <a href="details-yamaha-aerox.html" class="btn">More Info</a>
+                    </div>
+                </div>
+
+                <!-- Motorcycle 10: RUSI Classic 250 -->
+                <div class="shop-item">
+                    <img src="images/rusi-classic-250.jpg" alt="RUSI Classic 250">
+                    <div class="shop-item-info">
+                        <h3>RUSI Classic 250</h3>
+                        <p>A vintage-styled motorcycle with a 250cc engine, offering a blend of modern performance and classic design.</p>
+                        <span class="price">₱70,000</span>
+                        <a href="details-rusi-classic-250.html" class="btn">More Info</a>
+                    </div>
+                </div>
+
+                <!-- Motorcycle 11: Honda PCX -->
+                <div class="shop-item">
+                    <img src="images/honda-pcx.jpg" alt="Honda PCX">
+                    <div class="shop-item-info">
+                        <h3>Honda PCX</h3>
+                        <p>A stylish scooter with a 149cc engine, featuring modern design, LED lights, and excellent fuel efficiency.</p>
+                        <span class="price">₱129,000</span>
+                        <a href="details-honda-pcx.html" class="btn">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MotoSeph. All rights reserved.</p>
+    </footer>
+</body>
+</html>
